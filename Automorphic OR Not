@@ -1,0 +1,26 @@
+import java.util.*;
+class  Automorphic
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the number");
+int n=sc.nextInt();
+int k = (""+n).length();
+int sq=n*n;
+int end = sq%(int)Math.pow(100,1);
+if(n==end)
+System.out.println("it is a  Automorphic number");
+else
+System.out.println("it is not Automorphic number");
+}
+}
+
+OUTPUT:
+-->Enter the number
+7
+it is not Automorphic number
+
+-->Enter the number
+25
+it is a  Automorphic number
